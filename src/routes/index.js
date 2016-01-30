@@ -9,11 +9,15 @@ import { Route, IndexRoute, Redirect } from 'react-router'
 import CoreLayout from 'layouts/CoreLayout/CoreLayout'
 import HomeView from 'views/HomeView/HomeView'
 import NotFoundView from 'views/NotFoundView/NotFoundView'
+import ImageSwipeView from 'views/ImageSwipeView/ImageSwipeView'
+import ProgressView from 'views/ProgressView/ProgressView'
 
 export default (
   <Route path='/' component={CoreLayout}>
     <IndexRoute component={HomeView} />
     <Route path='/404' component={NotFoundView} />
+    <Route path='/myhome' component={ImageSwipeView} />
+    <Route path='/progress' component={ProgressView} />
     <Redirect from='*' to='/404' />
   </Route>
 )
