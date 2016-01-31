@@ -59,7 +59,9 @@
     "koa-convert": "^1.2.0",
     "koa-static": "^2.0.0",
     "react": "^0.14.0",
+    "react-bootstrap": "^0.28.2",
     "react-dom": "^0.14.0",
+    "react-html5video": "^1.2.4",
     "react-redux": "^4.0.0",
     "react-router": "^2.0.0-rc5",
     "react-router-redux": "^2.1.0",
@@ -67,6 +69,7 @@
     "redux-actions": "^0.9.0",
     "redux-thunk": "^1.0.0",
     "url": "^0.11.0",
+    "victory": "^0.3.0",
     "yargs": "^3.18.0"
   },
   "devDependencies": {
